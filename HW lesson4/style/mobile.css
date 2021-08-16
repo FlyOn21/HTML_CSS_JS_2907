@@ -1,0 +1,45 @@
+.first {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first .colored {
+    flex-basis: 50%;
+}
+
+.second {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second .colored {
+    flex-basis: 50%;
+}
+
+.third {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third .colored {
+    flex-basis: 100%;
+}
+
+.fourth {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fourth .colored {
+    flex-direction:row;
+}
+
+.fifth {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth .colored {
+    flex-direction:row;
+}
+

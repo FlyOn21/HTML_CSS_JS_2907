@@ -1,0 +1,2 @@
+Ссылка GitHub HW_1:https://github.com/FlyOn21/HTML_CSS_JS_2907
+GitPages: https://flyon21.github.io/HTML_CSS_JS_2907/

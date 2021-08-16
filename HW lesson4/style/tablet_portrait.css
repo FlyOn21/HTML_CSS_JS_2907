@@ -1,0 +1,15 @@
+.fourth .colored {
+    flex-basis: 50%;
+}
+
+.fourth .colored:last-child {
+    flex-grow: 1;
+}
+
+.fifth .colored {
+    flex-basis: 50%;
+}
+
+.fifth .colored:last-child {
+    flex-grow: 1;
+}

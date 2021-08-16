@@ -1,0 +1,24 @@
+.first {
+    flex-wrap: nowrap;
+}
+
+.third {
+    flex-wrap: nowrap;
+}
+
+.third .colored.colored {
+    flex: 0 0 25%
+}
+
+.fourth .colored.colored {
+    flex-basis: 25%;
+}
+
+.fifth {
+    flex-wrap:nowrap;
+    justify-content: flex-start;
+}
+
+.fifth .colored.colored {
+    flex-basis: 20%;
+}
