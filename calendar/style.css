@@ -19,7 +19,7 @@ body{
     justify-content: space-around;
     margin-top: 87px;
 }
-.calendar_head_swicher_prew{
+.calendar_head_switcher_prew{
     border: 2px;
     border-left-style: solid;
     border-bottom-style: solid;
@@ -29,7 +29,7 @@ body{
     transform: rotate(45deg);
     }
 
-.calendar_head_swicher_next{
+.calendar_head_switcher_next{
     border: 2px;
     border-top-style: solid;
     border-right-style: solid;
