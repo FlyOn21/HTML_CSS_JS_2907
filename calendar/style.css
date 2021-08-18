@@ -1,6 +1,6 @@
 :root {
     font-size: 29px;
-    font-family: 'Roboto', sans-serifo;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     display: flex;
@@ -71,8 +71,6 @@ body{
     flex-direction: row;
     margin: 65px 102px 0 99px;
     padding: 0;
-    
-
 }
 
 .calendar_body_title li{
@@ -104,12 +102,11 @@ body{
     width: 80px;
     height: 80px;
     flex-basis: 80px;
-    
     }
 
 .calendar_body_numbers ::before{
     display: flex;
-    align-items: center;    
+    align-items: center;
     counter-increment: calendar_num;
     content: counter(calendar_num) " ";
     }
@@ -124,13 +121,11 @@ body{
     opacity: 49.63%;
 }
 
-.calendar_body_numbers :nth-child(15){ 
-    
+.calendar_body_numbers :nth-child(15){
     border-radius: 40px;
     background:#3C82F9;
 }
-.calendar_body_numbers :nth-child(16){ 
-    
+.calendar_body_numbers :nth-child(16){
     border-radius: 40px;
     background:#3C82F9;
 }
