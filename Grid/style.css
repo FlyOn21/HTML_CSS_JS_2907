@@ -1,0 +1,71 @@
+:root{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0px;
+    display:grid;
+    grid-template: 100px 1fr 150px / 100px 0.65fr 0.35fr;
+    grid-template-areas:
+        "logo menu menu"
+        "news list nav"
+        "foo foo nav"
+    ;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    
+
+}
+
+.logo {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    grid-area: logo;
+    width: 100px;
+    height: 100px;
+    background:orange;
+
+}
+
+.menu {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    grid-area: menu;
+    background: tomato
+}
+
+.news {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background:brown;
+    grid-area: news;
+}
+
+.list {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    grid-area: list;
+    background: orange;
+}
+
+.nav {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    grid-area: nav;
+    background:black
+}
+
+.footer {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    grid-area: foo;
+    background:palegreen;
+}
