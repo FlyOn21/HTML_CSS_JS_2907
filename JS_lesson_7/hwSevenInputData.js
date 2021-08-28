@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 
 function findMultiples(n, k, userSelect) {
@@ -31,11 +31,14 @@ function displayStepByStep(n, k){
         }
     } return stepByStepNumObj;
 }
-// findMultiples(80, 150, false);
+
 
 function checkUserInput (promptText, alertText) {
     while (true){
         let end = prompt(`Input ${promptText}`);
+        if (end === null){
+            return alert (`You refused input numbers. By-by`)
+        }
         let inputData = parseInt(end);
         if (isNaN(inputData)) {
             alert (`You input incorrect ${alertText}. Please try again `)
@@ -45,10 +48,18 @@ function checkUserInput (promptText, alertText) {
     }
 }
 
+
 function findMultiplesUserInput(){
     const userSelect = confirm('Do display multiplicity numbers step by step? If you click "Отмена", you will display all multiplicity numbers')
     const n = checkUserInput('end of range', 'end of range');
+    if (n === undefined){
+        return
+    }
+    console.log(n)
     const k = checkUserInput(' number multiplicity you want to check', 'number');
+    if (k === undefined){
+        return
+    }
     const result = findMultiples(n, k, userSelect);
     console.log(result);
 }
